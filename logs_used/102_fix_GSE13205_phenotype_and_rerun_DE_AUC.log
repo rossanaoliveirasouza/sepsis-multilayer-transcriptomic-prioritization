@@ -1,0 +1,12 @@
+2026-05-12 22:40:55  |  ============================================================ 
+2026-05-12 22:40:55  |  SCRIPT 102: CORREÇÃO FENOTÍPICA GSE13205 + DE + AUC 
+2026-05-12 22:40:55  |  ============================================================ 
+Warning: program compiled against libxml 213 using older 209
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+2026-05-12 22:40:56  |  Genes avaliados em GSE13205: IL6R, AQP4, CHI3L1, GSS, SLPI, PPP1R1C, SAA2 
+Found 1 file(s)
+GSE13205_series_matrix.txt.gz
+2026-05-12 22:41:39  |  GSE13205_series1 | amostras: 21 | sepse: 13 | controle: 8 | NA: 0 
+2026-05-12 22:41:40  |  Script 102 finalizado. 
+2026-05-12 22:41:40  |  Relatório: 04_results/repaired_gse13205/report_102_GSE13205_DE_AUC.txt 

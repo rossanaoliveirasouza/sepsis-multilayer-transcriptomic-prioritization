@@ -1,0 +1,62 @@
+============================================================
+FINAL SEPSIS MANUSCRIPT PACKAGE - EXECUTIVE REPORT
+============================================================
+
+Generated package:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE
+
+This package contains only non-empty and interpretable outputs from the post-selection sepsis gene prioritization workflow.
+
+Main retained evidence layers:
+1. Final integrated gene prioritization after GPL570/GSE13205 repair.
+2. GO functional annotation.
+3. KEGG pathway annotation.
+4. Gene-gene functional proximity based on GO/KEGG.
+5. STRING/PPI mapping, interactions and centrality.
+6. Corrected GSE13205 transcriptomic validation.
+7. Differential expression and univariate directional AUC.
+8. Functional/metabolic axis analysis generated in this pipeline.
+
+Package summary:
+- Clean ranked genes: 31
+- GO gene-term edges: 0
+- KEGG gene-pathway edges: 10
+- Functional axis gene summaries: 0
+- Metabolic/oxidative-stress linked genes: 0
+- Tables/files in final table folder: 23
+- PNG figures in final figure folder: 9
+
+Top integrated candidates:
+IL6R, HRH4, IDO1, CXCL10, IL5RA, ARG1, AQP4, CHI3L1, GSS, SLPI
+
+Top metabolism/oxidative-stress linked candidates:
+No metabolism/oxidative-stress keyword-linked candidates detected from available GO/KEGG terms.
+
+Scientific interpretation:
+The final analytical package supports a biologically coherent prioritization of sepsis-related genes. The strongest evidence comes from the convergence of GO/KEGG functional annotation, STRING/PPI recovery, corrected GPL570 probe mapping, GSE13205 differential expression and directional AUC analysis. The new functional/metabolic figures should be used as mechanistic support, not as direct metabolomics evidence, because they are inferred from gene-pathway and gene-term annotations rather than measured metabolite concentrations.
+
+Important caution:
+GSE13205 is based on vastus lateralis muscle biopsies. Therefore, transcriptomic discrimination should be described as tissue-specific exploratory validation, not as direct blood-based diagnostic validation.
+
+Recommended figures for manuscript:
+Figure 1. Integrated prioritization of sepsis-related gene candidates.
+Figure 2. Transcriptomic discrimination of selected genes in GSE13205.
+Figure 3. Direction of expression differences between sepsis and control samples.
+Figure 4. Evidence matrix for top prioritized candidates.
+Figure 5. STRING-based network centrality of selected candidates.
+Figure 6. Functional axis map integrating GO and KEGG evidence.
+Figure 7. Metabolic and oxidative-stress bridge among selected candidates.
+Figure 8. Gene–KEGG pathway evidence matrix.
+
+Main folders:
+Tables:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables
+
+Figures:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures
+
+Reports:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/reports
+
+Scripts used:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used

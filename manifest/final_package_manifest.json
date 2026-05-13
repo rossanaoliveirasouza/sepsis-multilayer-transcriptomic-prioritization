@@ -1,0 +1,63 @@
+{
+  "final_package": "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE",
+  "tables_copied_or_generated": [
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/FINAL_SEPSIS_MANUSCRIPT_TABLES_COMPLETE.xlsx",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_01_final_integrated_prioritization_GPL570_DE_AUC.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_02_GSE13205_differential_expression.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_03_GSE13205_univariate_AUC.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_04_GSE13205_probe_mapping_GPL570.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_05_GO_terms_selected_genes.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_06_GO_ontology_summary.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_07_KEGG_pathways_selected_genes.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_08_gene_gene_functional_proximity_GO_KEGG.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_09_gene_pathway_network_edges.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_10_STRING_mapping_repaired.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_11_STRING_interactions_repaired.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_12_STRING_centrality_repaired.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_13_expression_summary_selected_genes.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_14_FINAL_clean_ranked_gene_candidates_for_manuscript.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_15_functional_KEGG_gene_pathway_edges.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_16_functional_GO_gene_term_edges.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_17_functional_axis_gene_term_long.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_18_functional_axis_gene_summary.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_19_metabolic_stress_gene_term_long.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/Table_20_metabolic_stress_gene_summary.csv",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/clean_final_gene_candidates_for_manuscript.xlsx",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/tables/final_sepsis_gene_prioritization_summary.xlsx"
+  ],
+  "figures_copied_or_generated": [
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_05_integrated_gene_candidate_prioritization.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_06_top_functional_proximity_pairs_GO_KEGG.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_11_integrated_score_vs_GSE13205_AUC.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_01_integrated_gene_prioritization.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_02_GSE13205_AUC_FDR_bubble.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_03_GSE13205_logFC_direction.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_04_top_gene_expression_boxplots.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_05_STRING_network_centrality.png",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/figures/Figure_Final_06_evidence_matrix_top_candidates.png"
+  ],
+  "reports_generated": [
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/reports/FINAL_PACKAGE_EXECUTIVE_REPORT.txt",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/reports/Figure_legends_final_package.txt",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/reports/Results_text_EN_final_package.txt",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/reports/Results_text_PT_final_package.txt"
+  ],
+  "scripts_archived": [
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/101_repair_string_auc_differential_sepsis.sh",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/102_fix_GSE13205_phenotype_and_rerun_DE_AUC.sh",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/103_GSE13205_GPL570_probe_mapping_DE_AUC.R",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/103_GSE13205_GPL570_probe_mapping_DE_AUC.sh",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/104_make_final_figures_tables_and_results_text.sh",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/105_organize_final_package_and_functional_metabolic_figures.py",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/105_organize_final_package_and_functional_metabolic_figures.sh",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/scripts_used/99_run_post_gene_sepsis_pipeline.sh"
+  ],
+  "logs_archived": [
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/02_post_gene_sepsis_functional_clinical_pipeline.log",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/101_repair_string_auc_differential_sepsis.log",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/102_fix_GSE13205_phenotype_and_rerun_DE_AUC.log",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/103_GSE13205_GPL570_probe_mapping_DE_AUC.log",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/104_make_final_figures_tables_and_results_text.log",
+    "/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/logs_used/105_organize_final_package_and_functional_metabolic_figures.log"
+  ]
+}

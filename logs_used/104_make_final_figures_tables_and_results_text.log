@@ -1,0 +1,16 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+2026-05-12 22:55:43  |  ============================================================ 
+2026-05-12 22:55:43  |  SCRIPT 104: TABELAS, FIGURAS E TEXTO FINAL 
+2026-05-12 22:55:43  |  ============================================================ 
+2026-05-12 22:55:50  |  Script 104 finalizado. 
+2026-05-12 22:55:50  |  Relatório final: 04_results/final_manuscript/reports/Final_executive_report.txt 

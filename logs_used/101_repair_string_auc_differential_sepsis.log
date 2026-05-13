@@ -1,0 +1,31 @@
+2026-05-12 22:28:32  |  ============================================================ 
+2026-05-12 22:28:32  |  REPARO DIRIGIDO: STRING + AUC + DIFERENCIAL 
+2026-05-12 22:28:32  |  ============================================================ 
+2026-05-12 22:28:32  |  Genes únicos para reparo: ALOX15, ARG1, CHI3L1, CLEC4D, CXCL10, HRH4, IDO1, IL5RA, SLPI, AQP4, BMX, CLC, GSS, HP, IL6R, KREMEN1, MCEMP1, MMP8, PCOLCE2, SAA2, WFDC1, ADGRE4P, ANKRD22, PPP1R1C, TPST1, ZNF608, CUTALP, LINC00189, MIR3939, MIR548A1, LOC102723549 
+2026-05-12 22:28:32  |  Datasets para reparo: GSE69063, GSE13205, GSE12624 
+2026-05-12 22:28:32  |  Tentando recuperar mapeamento e interações STRING via API... 
+2026-05-12 22:28:35  |  STRING mapping recuperado: 24 linhas 
+2026-05-12 22:28:37  |  STRING interações recuperadas: 18 linhas 
+2026-05-12 22:28:37  |  STRING centralidade recuperada: 16 genes 
+2026-05-12 22:28:37  |  Carregando pacotes GEOquery/Biobase para reparo GEO... 
+Warning: program compiled against libxml 213 using older 209
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+2026-05-12 22:28:39  |  Processando GEO para reparo: GSE69063 
+Found 1 file(s)
+GSE69063_series_matrix.txt.gz
+2026-05-12 22:30:47  |  Falha ao baixar/carregar GSE69063 : Timeout was reached [ftp.ncbi.nlm.nih.gov]:
+Operation timed out after 120000 milliseconds with 7487600 out of 21465456 bytes received 
+2026-05-12 22:30:47  |  Processando GEO para reparo: GSE13205 
+Found 1 file(s)
+GSE13205_series_matrix.txt.gz
+2026-05-12 22:32:00  |  GSE13205_series1 amostras: 21 | sepse: 0 | controle: 21 | desconhecido: 0 
+2026-05-12 22:32:00  |  Sem contraste suficiente em GSE13205_series1 
+2026-05-12 22:32:00  |  Processando GEO para reparo: GSE12624 
+Found 1 file(s)
+GSE12624_series_matrix.txt.gz
+2026-05-12 22:34:03  |  Falha ao baixar/carregar GSE12624 : Timeout was reached [ftp.ncbi.nlm.nih.gov]:
+Operation timed out after 120001 milliseconds with 1543601 out of 2497844 bytes received 
+2026-05-12 22:34:03  |  Reparo finalizado. 
+2026-05-12 22:34:03  |  Relatório: 04_results/repaired/repaired_pipeline_report.txt 
+2026-05-12 22:34:03  |  Priorização reparada: 04_results/repaired/Table_R08_integrated_gene_candidate_prioritization_repaired.csv 

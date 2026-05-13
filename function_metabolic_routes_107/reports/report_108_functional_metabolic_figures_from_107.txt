@@ -1,0 +1,58 @@
+============================================================
+RELATÓRIO SCRIPT 108 - FIGURAS A PARTIR DAS TABELAS 107
+============================================================
+
+Diretório:
+/mnt/f/Marcos/rossana/04_results/FINAL_SEPSIS_MANUSCRIPT_PACKAGE/function_metabolic_routes_107
+
+Resumo dos dados usados:
+- Genes mapeados SYMBOL/ENTREZ: 30
+- Registros GO com termos: 486
+- Ligações gene-KEGG: 54
+- Detalhes de vias KEGG: 41
+- Compostos/metabólitos KEGG: 847
+- Ligações gene-via-composto/metabólito: 960
+- Registros de eixos funcionais: 238
+- Resumos gene-eixo funcional: 64
+- Resumos metabólico/oxidativo: 13
+- Resumos gene-via-composto: 34
+- Figuras geradas: 8
+
+Top genes por escore funcional/metabólico:
+IL6R, CXCL10, ALOX15, ARG1, IDO1, GSS, IL5RA, CLEC4D, CHI3L1, HRH4, HP, MMP8
+
+Top genes por ligações com compostos/metabólitos KEGG:
+ALOX15, AQP4, GSS, ARG1, IDO1, IL6R, HRH4, IL5RA, CXCL10, CLEC4D, CHI3L1, HP
+
+Figuras geradas:
+- Figure_108_01_functional_axis_heatmap_GO_KEGG.png
+- Figure_108_02_KEGG_route_classes_by_gene_count.png
+- Figure_108_03_top_KEGG_pathways_gene_support.png
+- Figure_108_04_gene_KEGG_pathway_matrix.png
+- Figure_108_05_KEGG_pathway_compound_metabolite_burden.png
+- Figure_108_06_gene_pathway_compound_metabolite_bubble_map.png
+- Figure_108_07_metabolic_oxidative_stress_axis_heatmap.png
+- Figure_108_08_final_functional_metabolic_prioritization.png
+
+Tabelas/Excel principais:
+- FINAL_108_functional_metabolic_routes_tables.xlsx
+- Table_107_01_gene_symbol_entrez_mapping.csv
+- Table_107_02_GO_gene_ids_orgdb.csv
+- Table_107_03_GO_gene_term_text_rebuilt.csv
+- Table_107_04_KEGG_gene_pathway_edges.csv
+- Table_107_05_KEGG_pathway_details_classes.csv
+- Table_107_06_KEGG_pathway_compounds_metabolites.csv
+- Table_107_07_KEGG_pathway_modules.csv
+- Table_107_08_gene_pathway_route_classes.csv
+- Table_107_09_gene_pathway_compound_metabolite_edges.csv
+- Table_107_10_functional_axis_gene_term_long.csv
+- Table_107_11_functional_axis_gene_summary.csv
+- Table_107_12_metabolic_oxidative_axis_summary.csv
+- Table_107_13_gene_pathway_compound_summary.csv
+- Table_108_FINAL_functional_metabolic_prioritization_from_107.csv
+
+Interpretação científica:
+As figuras representam uma análise funcional de rotas baseada em anotações GO e KEGG. A camada de compostos/metabólitos foi derivada das anotações das vias KEGG associadas aos genes candidatos. Portanto, a formulação correta é análise gene-via-composto/metabólito baseada em KEGG, e não metabolômica experimental direta.
+
+Frase recomendada:
+Functional route analysis mapped prioritized genes to GO annotations and KEGG pathways. KEGG pathway entries were further queried to recover annotated compounds and metabolites, enabling gene–pathway–compound visualization. These results represent pathway-level functional inference rather than direct metabolomic profiling.

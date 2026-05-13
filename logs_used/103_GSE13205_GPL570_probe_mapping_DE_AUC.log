@@ -1,0 +1,84 @@
+2026-05-12 22:44:06  |  ============================================================ 
+2026-05-12 22:44:06  |  SCRIPT 103: GSE13205 + GPL570/hgu133plus2.db + DE/AUC 
+2026-05-12 22:44:06  |  ============================================================ 
+Warning: program compiled against libxml 213 using older 209
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+2026-05-12 22:44:11  |  Pacote ausente: hgu133plus2.db 
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.3 (2024-02-29)
+Installing package(s) 'hgu133plus2.db'
+trying URL 'https://bioconductor.org/packages/3.18/data/annotation/src/contrib/hgu133plus2.db_3.13.0.tar.gz'
+Content type 'application/gzip' length 2240377 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘hgu133plus2.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (hgu133plus2.db)
+
+The downloaded source packages are in
+	‘/mnt/f/artinm_tmp/RtmpK0QUkZ/downloaded_packages’
+
+Loading required package: Biobase
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: stats4
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: org.Hs.eg.db
+
+2026-05-12 22:45:29  |  Total de genes válidos para teste: 31 
+2026-05-12 22:45:29  |  Genes: ADGRE4P, ALOX15, ANKRD22, AQP4, ARG1, BMX, CHI3L1, CLC, CLEC4D, CUTALP, CXCL10, GSS, HP, HRH4, IDO1, IL5RA, IL6R, KREMEN1, LINC00189, LOC102723549, MCEMP1, MIR3939, MIR548A1, MMP8, PCOLCE2, PPP1R1C, SAA2, SLPI, TPST1, WFDC1, ZNF608 
+2026-05-12 22:45:29  |  Baixando/carregando GSE13205... 
+Found 1 file(s)
+GSE13205_series_matrix.txt.gz
+'select()' returned 1:many mapping between keys and columns
+2026-05-12 22:47:03  |  Anotação GPL570 carregada: 1130692 linhas 
+2026-05-12 22:47:03  |  GSE13205_series1 | features: 35482 | amostras: 21 | sepse: 13 | controle: 8 | NA: 0 
+2026-05-12 22:47:07  |  Script 103 finalizado. 
+2026-05-12 22:47:07  |  Relatório: 04_results/repaired_gse13205_gpl570/report_103_GSE13205_GPL570_DE_AUC.txt 

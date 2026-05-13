@@ -1,0 +1,25 @@
+Figure legends for the final manuscript package
+
+Figure 1. Integrated prioritization of sepsis-related gene candidates.
+Bar plot showing top-ranked genes according to the final integrated evidence score. The score summarizes support from functional annotation, KEGG pathway membership, STRING/PPI recovery, GPL570 probe mapping, differential expression and univariate AUC analysis.
+
+Figure 2. Transcriptomic discrimination of selected genes in GSE13205.
+Bubble plot showing directional AUC values for selected genes after corrected phenotype mapping in GSE13205. Bubble size represents FDR-adjusted statistical support when available.
+
+Figure 3. Direction of expression differences between sepsis and control samples.
+Bar plot showing mean expression differences calculated as septic minus control expression. Positive values indicate higher expression in sepsis, whereas negative values indicate lower expression in sepsis.
+
+Figure 4. Evidence matrix for top prioritized candidates.
+Tile plot summarizing the presence or absence of each evidence layer for top-ranked genes.
+
+Figure 5. STRING-based network centrality of selected candidates.
+Bar plot showing degree centrality values derived from recovered STRING protein-protein interaction data.
+
+Figure 6. Functional axis map integrating GO and KEGG evidence.
+Heatmap showing the number of supporting GO/KEGG terms connecting each gene to major functional axes, including immune/inflammatory response, leukocyte activation, acute-phase response, oxidative/metabolic stress, extracellular matrix remodeling and signaling regulation.
+
+Figure 7. Metabolic and oxidative-stress bridge among selected candidates.
+Bar plot showing genes linked to metabolism, oxidative stress, redox biology, glutathione-related pathways or other metabolic/stress-response annotations. This figure should be interpreted as pathway-level functional inference, not direct metabolomics.
+
+Figure 8. Gene–KEGG pathway evidence matrix.
+Heatmap showing the presence of selected genes across the most represented KEGG pathways, highlighting pathway convergence among candidates.

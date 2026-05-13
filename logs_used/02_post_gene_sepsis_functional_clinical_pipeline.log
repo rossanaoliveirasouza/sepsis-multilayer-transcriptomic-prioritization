@@ -1,0 +1,1522 @@
+2026-05-12 21:59:15  |  ============================================================ 
+2026-05-12 21:59:15  |  PIPELINE PÓS-SELEÇÃO DE GENES PARA SEPSE 
+2026-05-12 21:59:15  |  Não refaz seleção de genes. Parte dos genes/identificadores já selecionados. 
+2026-05-12 21:59:15  |  ============================================================ 
+Warning: program compiled against libxml 213 using older 209
+Setting options('download.file.method.GEOquery'='auto')
+Setting options('GEOquery.inmemory.gpl'=FALSE)
+
+2026-05-12 21:59:21  |  Datasets usados automaticamente: GSE12624, GSE13205, GSE69063 
+2026-05-12 21:59:21  |  Símbolos gênicos mapeáveis: WFDC1, MMP8, PCOLCE2, CXCL10, SAA2, SLPI, CHI3L1, GSS, AQP4, PPP1R1C, IL6R, CLEC4D, ARG1, HP, MCEMP1, BMX, ANKRD22, ADGRE4P, HRH4, ALOX15, MIR3939, IL5RA, LINC00189, MIR548A1, IDO1, CLC, ZNF608, TPST1, CUTALP, KREMEN1, LOC102723549 
+2026-05-12 21:59:21  |  Identificadores selecionados: NM_021197, NM_002424, NM_013363, NM_004718, AL035301, M12759, NM_001192, AB002365, NM_030674, AK057549, AAB35476, NM_000582, AF074091, NM_018728, AF247704, AB007953, NM_000500, AL110199, NM_003761, NM_005084, M23699, NM_003064, M80927, AK000947, U63622, D63412, AF494535, AK056971, NM_001085, NM_030754, W46388, NM_002965, AW292273, U36189, NM_005097, NM_012113, NM_014289, AI147310, CLEC4D, ARG1, HP, MCEMP1, BMX, ANKRD22, ADGRE4P, HRH4, ALOX15, MIR3939, IL5RA, LINC00189, MIR548A1, IDO1, CLC, ZNF608, TPST1, CUTALP, KREMEN1, LOC102723549 
+'select()' returned 1:1 mapping between keys and columns
+2026-05-12 21:59:21  |  Rodando anotação GO... 
+'select()' returned 1:many mapping between keys and columns
+2026-05-12 21:59:24  |  Rodando KEGG... 
+2026-05-12 22:00:24  |  Calculando proximidade funcional entre genes por GO/KEGG... 
+2026-05-12 22:00:25  |  Rodando STRING/proximidade proteína-proteína... 
+trying URL 'https://stringdb-downloads.org/download/protein.aliases.v12.0/9606.protein.aliases.v12.0.txt.gz'
+Content type 'application/octet-stream' length 19777800 bytes (18.9 MB)
+=====
+downloaded 2.1 MB
+
+Warning in download.file(urlStr, temp) :
+  downloaded length 0 != reported length 0
+Warning in download.file(urlStr, temp) :
+  URL 'https://stringdb-downloads.org/download/protein.aliases.v12.0/9606.protein.aliases.v12.0.txt.gz': status was 'Failure when receiving data from the peer'
+2026-05-12 22:14:35  |  Falha no mapeamento STRING: download from 'https://stringdb-downloads.org/download/protein.aliases.v12.0/9606.protein.aliases.v12.0.txt.gz' failed 
+2026-05-12 22:14:35  |  Buscando proteínas no UniProt... 
+2026-05-12 22:14:37  |  Falha UniProt para WFDC1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para MMP8: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para PCOLCE2: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para CXCL10: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para SAA2: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para SLPI: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para CHI3L1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para GSS: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para AQP4: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para PPP1R1C: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para IL6R: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para CLEC4D: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para ARG1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para HP: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para MCEMP1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para BMX: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para ANKRD22: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para ADGRE4P: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para HRH4: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para ALOX15: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para MIR3939: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para IL5RA: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para LINC00189: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para MIR548A1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para IDO1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para CLC: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para ZNF608: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para TPST1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para CUTALP: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para KREMEN1: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Falha UniProt para LOC102723549: 'keytype' must be one of 'keytypes(x)' 
+2026-05-12 22:14:37  |  Baixando GEO, extraindo metadados e validando expressão... 
+2026-05-12 22:14:38  |  Processando GEO: GSE12624 
+Found 1 file(s)
+GSE12624_series_matrix.txt.gz
+Using locally cached version: 01_raw/GEO/GSE12624_series_matrix.txt.gz
+Using locally cached version of GPL4204 found here:
+01_raw/GEO/GPL4204.soft.gz 
+2026-05-12 22:14:43  |  Extraindo série: GSE12624_series1 
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in min(x, na.rm = T) :
+  no non-missing arguments to min; returning Inf
+Warning in max(x, na.rm = T) :
+  no non-missing arguments to max; returning -Inf
+2026-05-12 22:14:46  |  Processando GEO: GSE13205 
+Found 1 file(s)
+GSE13205_series_matrix.txt.gz
+2026-05-12 22:15:34  |  Extraindo série: GSE13205_series1 
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to min; returning Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in FUN(newX[, i], ...) :
+  no non-missing arguments to max; returning -Inf
+Warning in min(x, na.rm = T) :
+  no non-missing arguments to min; returning Inf
+Warning in max(x, na.rm = T) :
+  no non-missing arguments to max; returning -Inf
+2026-05-12 22:15:50  |  Processando GEO: GSE69063 
+Found 1 file(s)
+GSE69063_series_matrix.txt.gz
+2026-05-12 22:16:27  |  Extraindo série: GSE69063_series1 
+2026-05-12 22:16:34  |  Gerando tabela de priorização integrada... 
+2026-05-12 22:16:35  |  Gerando relatório final... 
+2026-05-12 22:16:35  |  ============================================================ 
+2026-05-12 22:16:35  |  PIPELINE FINALIZADO. 
+2026-05-12 22:16:35  |  Relatório: 04_results/reports/post_gene_sepsis_pipeline_report.txt 
+2026-05-12 22:16:35  |  Tabela de priorização: 04_results/tables/Table_22_integrated_gene_candidate_prioritization.csv 
+2026-05-12 22:16:35  |  ============================================================ 
