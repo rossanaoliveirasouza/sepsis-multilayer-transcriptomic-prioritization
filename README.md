@@ -1,4 +1,3 @@
-````markdown
 # sepsis-multilayer-transcriptomic-prioritization
 
 Repository associated with the manuscript:
